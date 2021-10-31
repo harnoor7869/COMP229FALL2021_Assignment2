@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+}
+
+#allPage {
+    text-align: center;
+    
+    height: 670px;
+}
+
+.text{
+    text-align:center;
+    border-style:double;
+    border-width: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font: italic 25px "Fira Sans", serif;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.img{
+    text-align: center;
+    box-shadow: 100px;
+    border: 8px solid #999999;
+    background-color: #e6e6e6;
+   padding: 20px;
+   box-shadow: 10px 10px 10px rgb(19, 18, 18);
+   margin: 15px 15px 15px 15px;
+    
+}
+.img2{
+    text-align: center;
+    box-shadow: 100px;
+    border: 8px solid #999999;
+    background-color: #e6e6e6;
+   padding: 20px;
+   box-shadow: 10px 10px 10px rgb(19, 18, 18);
+   margin: 15px 15px 15px 15px;
+   flex-basis: 70%;
+   order: 2;
+    
+}
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
